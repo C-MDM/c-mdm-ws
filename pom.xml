@@ -7,7 +7,7 @@
   <repositories>
     <repository>
         <id>c-mdm-core</id>
-        <url>https://raw.github.com/C-MDM/c-mdm-core/mvn-repo/</url>
+        <url>https://github.com/C-MDM/c-mdm-core/raw/mvn-repo/</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
