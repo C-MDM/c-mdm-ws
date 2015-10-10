@@ -4,6 +4,16 @@
   <artifactId>c-mdm-ws</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <repositories>
+    <repository>
+        <id>YOUR-PROJECT-NAME-mvn-repo</id>
+        <url>https://raw.github.com/yoshi023/C-MDM/c-mdm-core/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+  </repositories>
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
