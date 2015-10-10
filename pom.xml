@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <repositories>
     <repository>
-        <id>YOUR-PROJECT-NAME-mvn-repo</id>
+        <id>c-mdm-core</id>
         <url>https://raw.github.com/yoshi023/C-MDM/c-mdm-core/mvn-repo/</url>
         <snapshots>
             <enabled>true</enabled>
