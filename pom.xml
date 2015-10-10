@@ -6,8 +6,8 @@
   <packaging>war</packaging>
   <repositories>
     <repository>
-        <id>c-mdm-core</id>
-        <url>https://github.com/C-MDM/c-mdm-core/raw/mvn-repo/</url>
+        <id>c-mdm-core-mvn-repo</id>
+        <url>https://raw.github.com/C-MDM/c-mdm-core/mvn-repo/</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
