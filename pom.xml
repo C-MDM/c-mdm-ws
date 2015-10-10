@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <repositories>
     <repository>
-        <id>c-mdm-core-mvn-repo</id>
+        <id>jp.co.cos_mos.mdm</id>
         <url>https://raw.github.com/C-MDM/c-mdm-core/mvn-repo/</url>
         <snapshots>
             <enabled>true</enabled>
