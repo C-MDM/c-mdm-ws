@@ -23,9 +23,9 @@
 		    	<artifactId>tomcat7-maven-plugin</artifactId>
 		    	<version>2.2</version>
 		    	<configuration>
-		    		<path>/c-mdm-ws</path>
+		    		<path>/</path>
 		      		<server>tomcat-lt</server>
-				<url>http://54.92.70.170:8080/manager</url>
+				<url>http://54.92.70.170:8080/manager/text</url>
 			</configuration>
 		</plugin>
 	</plugins>
