@@ -14,18 +14,22 @@
         </snapshots>
     </repository>
   </repositories>
-  <plugins>
-  	<plugin>
-	    	<groupId>org.apache.tomcat.maven</groupId>
-	    	<artifactId>tomcat7-maven-plugin</artifactId>
-	    	<version>2.2</version>
-	    	<configuration>
-	    		<path>/c-mdm-ws</path>
-	      		<server>tomcat-lt</server>
-			<url>http://54.92.70.170:8080/manager/text</url>
-		</configuration>
-	</plugin>
-  </plugins>
+  
+  <build>
+	<finalName>c-mdm-ws</finalName>
+	<plugins>
+	  	<plugin>
+		    	<groupId>org.apache.tomcat.maven</groupId>
+		    	<artifactId>tomcat7-maven-plugin</artifactId>
+		    	<version>2.2</version>
+		    	<configuration>
+		    		<path>/c-mdm-ws</path>
+		      		<server>tomcat-lt</server>
+				<url>http://54.92.70.170:8080/manager/text</url>
+			</configuration>
+		</plugin>
+	</plugins>
+  </build>
   
   <dependencies>
   	<dependency>
@@ -180,7 +184,4 @@
 	    <scope>test</scope>
 	</dependency>
   </dependencies>
-  <build>
-	<finalName>c-mdm-ws</finalName>
-  </build>
 </project>
