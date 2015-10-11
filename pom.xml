@@ -25,7 +25,7 @@
 		    	<configuration>
 		    		<path>/c-mdm-ws</path>
 		      		<server>tomcat-lt</server>
-				<url>http://54.92.70.170:8080/manager/text</url>
+				<url>http://54.92.70.170:8080/manager</url>
 			</configuration>
 		</plugin>
 	</plugins>
