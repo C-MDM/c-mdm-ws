@@ -36,7 +36,7 @@ public class SequenceNumberServiceController {
 		
 	}
 
-	@RequestMapping(value = "/cerate", method = RequestMethod.POST)
+	@RequestMapping(value = "/create", method = RequestMethod.POST)
 	public @ResponseBody SequenceNumberServiceResponse create(@RequestBody SequenceNumberServiceRequest request) {
 		Control control = request.getControl();
 		control.setTransactionId(1L);
