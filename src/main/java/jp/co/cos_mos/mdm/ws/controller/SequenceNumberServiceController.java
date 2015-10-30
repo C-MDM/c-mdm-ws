@@ -21,6 +21,23 @@ public class SequenceNumberServiceController {
 	@Autowired
 	private SequenceNumberService service;
 	
+	
+	@RequestMapping(value = "{id}", method = RequestMethod.GET)
+	public @ResponseBody SequenceNumberServiceResponse get(@PathVariable String id) {
+		Control control = new Control();
+		
+		SequenceNumberCriteriaObj criteria = new SequenceNumberCriteriaObj();
+		criteria.setId(id);
+		
+		SequenceNumberServiceRequest request = new SequenceNumberServiceRequest();
+		request.setCriteria(criteria);
+		request.setControl(control);
+		
+		return service.get(request);
+		
+	}
+	
+	
 	@RequestMapping(value = "numbering/{id}", method = RequestMethod.PUT)
 	public @ResponseBody SequenceNumberServiceResponse numbering(@PathVariable String id) {
 		Control control = new Control();
